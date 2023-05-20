@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(180deg, #526193 0%, #2D3654 100%),linear-gradient(0deg, #D9D9D9, #D9D9D9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name{
+    letter-spacing: 5px;
+    color: #2D3654;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.clock{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5)
+}
+
+.clock div{
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #526193;
+    background-color: #2D3654;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.clock  span{
+    font-weight: bolder;
+    font-size: 65px;
+}
+
+.clock span.time{
+    font-size: 18px;
+}
+
+.final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 550px;
+    color: #526193;
+}
